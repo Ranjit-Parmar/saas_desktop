@@ -29,7 +29,9 @@ export const useUploadModal = () => {
   const context = useContext(UploadModalContext);
   // If used outside the provider, throw an error
   if (context === undefined) {
-    throw new Error("useUploadModal must be used within an UploadModalProvider");
+    throw new Error(
+      "useUploadModal must be used within an UploadModalProvider"
+    );
   }
   return context; // Return the modal context (state + actions)
 };

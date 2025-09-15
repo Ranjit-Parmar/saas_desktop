@@ -125,7 +125,9 @@ const ContractDetails = () => {
 
       {/* Insights */}
       <section>
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">AI Insights</h3>
+        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+          AI Insights
+        </h3>
         {insights.length > 0 ? (
           <div className="space-y-3">
             {insights.map((insight, index) => (

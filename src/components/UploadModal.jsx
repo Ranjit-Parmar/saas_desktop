@@ -52,11 +52,7 @@ const UploadModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade"
-      role="dialog"
-      aria-modal="true"
-    >
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm transition-opacity duration-200 opacity-100">
       <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg w-[95%] max-w-lg p-4 sm:p-6">
         {/* Header */}
         <h2 className="text-lg sm:text-xl font-semibold mb-4 text-center sm:text-left">
@@ -120,19 +116,6 @@ const UploadModal = ({ isOpen, onClose }) => {
           </button>
         </div>
       </div>
-
-      {/* Tailwind keyframes for fade animation */}
-      <style>
-        {`
-          @keyframes fade {
-            from { opacity: 0 }
-            to { opacity: 1 }
-          }
-          .animate-fade {
-            animation: fade 0.2s ease-in-out;
-          }
-        `}
-      </style>
     </div>
   );
 };

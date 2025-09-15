@@ -25,7 +25,6 @@ const Login = () => {
       const userData = {
         name: username.charAt(0).toUpperCase() + username.slice(1),
         email: email,
-        avatar: "/profile.jpg", // Placeholder image
       };
 
       // Simulate login: save token and user, redirect
@@ -50,6 +49,16 @@ const Login = () => {
           </p>
         </div>
 
+        <div className="mb-4 text-center text-gray-700">
+          <p className="font-medium">Demo Credentials:</p>
+          <p>
+            Email: <span className="font-semibold">demo@example.com</span>
+          </p>
+          <p>
+            Password: <span className="font-semibold">test123</span>
+          </p>
+        </div>
+
         {/* Login Form */}
         <form className="space-y-6" onSubmit={handleSubmit}>
           {/* Email Input */}
@@ -70,7 +79,10 @@ const Login = () => {
 
           {/* Password Input */}
           <div>
-            <label htmlFor="password" className="block mb-2 text-sm font-medium">
+            <label
+              htmlFor="password"
+              className="block mb-2 text-sm font-medium"
+            >
               Password *
             </label>
             <div className="relative">

@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import PrivateRoute from "./routes/PrivateRoute";
 import Dashboard from "./pages/Dashboard";
 import ContractDetail from "./pages/ContractDetail";
@@ -9,7 +14,6 @@ function App() {
   return (
     <Router>
       <Routes>
-
         {/* Redirect root path to login */}
         <Route path="/" element={<Navigate to="/login" replace />} />
 
@@ -18,10 +22,8 @@ function App() {
 
         {/* Protected Routes (only accessible if authenticated) */}
         <Route element={<PrivateRoute />}>
-
           {/* Main layout for dashboard-related pages */}
           <Route path="/dashboard" element={<Layout />}>
-
             {/* Default child route of /dashboard shows Dashboard page */}
             <Route index element={<Dashboard />} />
 

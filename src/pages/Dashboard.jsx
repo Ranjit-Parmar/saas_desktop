@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 const Dashboard = () => {
   // State management
   const [contracts, setContracts] = useState([]); // All contracts
-  const [loading, setLoading] = useState(true);   // Loading state
-  const [error, setError] = useState(null);       // Error state
+  const [loading, setLoading] = useState(true); // Loading state
+  const [error, setError] = useState(null); // Error state
   const [currentPage, setCurrentPage] = useState(1); // Pagination
   const itemsPerPage = 10;
 
@@ -57,7 +57,10 @@ const Dashboard = () => {
   }, [totalPages, currentPage]);
 
   // Scroll to top when page changes
-  useEffect(() => window.scrollTo({ top: 0, behavior: "smooth" }), [currentPage]);
+  useEffect(
+    () => window.scrollTo({ top: 0, behavior: "smooth" }),
+    [currentPage]
+  );
 
   // Paginate results
   const paginatedContracts = filteredContracts.slice(
@@ -77,7 +80,9 @@ const Dashboard = () => {
         {/* Filters Header */}
         <div className="flex items-center gap-2 mb-6 text-gray-700">
           <SlidersHorizontal className="w-5 h-5" />
-          <span className="text-sm font-medium uppercase tracking-wide">Filters</span>
+          <span className="text-sm font-medium uppercase tracking-wide">
+            Filters
+          </span>
         </div>
 
         {/* Status & Risk Filter Dropdowns */}
@@ -143,11 +148,21 @@ const Dashboard = () => {
             <table className="min-w-full text-xs sm:text-sm text-gray-800">
               <thead className="hidden sm:table-header-group bg-gray-200 text-gray-600 uppercase tracking-wider">
                 <tr>
-                  <th className="px-3 sm:px-6 py-3 text-left font-medium">Contract Name</th>
-                  <th className="px-3 sm:px-6 py-3 text-left font-medium">Parties</th>
-                  <th className="px-3 sm:px-6 py-3 text-left font-medium">Expiry Date</th>
-                  <th className="px-3 sm:px-6 py-3 text-left font-medium">Status</th>
-                  <th className="px-3 sm:px-6 py-3 text-left font-medium">Risk</th>
+                  <th className="px-3 sm:px-6 py-3 text-left font-medium">
+                    Contract Name
+                  </th>
+                  <th className="px-3 sm:px-6 py-3 text-left font-medium">
+                    Parties
+                  </th>
+                  <th className="px-3 sm:px-6 py-3 text-left font-medium">
+                    Expiry Date
+                  </th>
+                  <th className="px-3 sm:px-6 py-3 text-left font-medium">
+                    Status
+                  </th>
+                  <th className="px-3 sm:px-6 py-3 text-left font-medium">
+                    Risk
+                  </th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-100">
@@ -159,11 +174,15 @@ const Dashboard = () => {
                   >
                     {/* Contract Name */}
                     <td className="block sm:table-cell px-3 sm:px-6 py-2 sm:py-4">
-                      <span className="sm:hidden font-semibold">Contract: </span>{c.name}
+                      <span className="sm:hidden font-semibold">
+                        Contract:{" "}
+                      </span>
+                      {c.name}
                     </td>
                     {/* Parties */}
                     <td className="block sm:table-cell px-3 sm:px-6 py-2 sm:py-4">
-                      <span className="sm:hidden font-semibold">Parties: </span>{c.parties}
+                      <span className="sm:hidden font-semibold">Parties: </span>
+                      {c.parties}
                     </td>
                     {/* Expiry Date */}
                     <td className="block sm:table-cell px-3 sm:px-6 py-2 sm:py-4">
@@ -177,26 +196,30 @@ const Dashboard = () => {
                     {/* Status */}
                     <td className="block sm:table-cell px-3 sm:px-6 py-2 sm:py-4">
                       <span className="sm:hidden font-semibold">Status: </span>
-                      <span className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-full ${
-                        c.status === "Active"
-                          ? "text-green-700 bg-green-100"
-                          : c.status === "Expired"
-                          ? "text-gray-700 bg-gray-200"
-                          : "text-yellow-800 bg-yellow-100"
-                      }`}>
+                      <span
+                        className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-full ${
+                          c.status === "Active"
+                            ? "text-green-700 bg-green-100"
+                            : c.status === "Expired"
+                            ? "text-gray-700 bg-gray-200"
+                            : "text-yellow-800 bg-yellow-100"
+                        }`}
+                      >
                         {c.status}
                       </span>
                     </td>
                     {/* Risk */}
                     <td className="block sm:table-cell px-3 sm:px-6 py-2 sm:py-4">
                       <span className="sm:hidden font-semibold">Risk: </span>
-                      <span className={`inline-block px-2 py-1 text-xs font-medium rounded-full ${
-                        c.risk === "High"
-                          ? "text-red-800 bg-red-100"
-                          : c.risk === "Medium"
-                          ? "text-yellow-800 bg-yellow-100"
-                          : "text-green-800 bg-green-100"
-                      }`}>
+                      <span
+                        className={`inline-block px-2 py-1 text-xs font-medium rounded-full ${
+                          c.risk === "High"
+                            ? "text-red-800 bg-red-100"
+                            : c.risk === "Medium"
+                            ? "text-yellow-800 bg-yellow-100"
+                            : "text-green-800 bg-green-100"
+                        }`}
+                      >
                         {c.risk}
                       </span>
                     </td>

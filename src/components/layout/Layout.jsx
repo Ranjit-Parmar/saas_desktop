@@ -57,7 +57,9 @@ const Layout = () => {
         className={`fixed xl:static top-0 left-0 z-40 h-full border-r border-gray-200 overflow-y-auto 
         bg-white transform transition-all duration-300 ease-in-out 
         ${isCollapsed ? "w-[80px]" : "w-[260px]"} 
-        ${isMobileOpen ? "translate-x-0" : "-translate-x-full"} xl:translate-x-0`}
+        ${
+          isMobileOpen ? "translate-x-0" : "-translate-x-full"
+        } xl:translate-x-0`}
       >
         <div className="flex items-center justify-between px-4 py-4 xl:justify-baseline">
           {!isCollapsed && (
@@ -139,9 +141,9 @@ const Layout = () => {
               onClick={() => setDropdownOpen((prev) => !prev)}
               className="flex items-center gap-1 px-3 py-1 rounded-md"
             >
-             <span className="mr-3 flex items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-gray-100">
-  <CircleUser className="w-6 h-6 text-gray-500" />
-</span>
+              <span className="mr-3 flex items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-gray-100">
+                <CircleUser className="w-6 h-6 text-gray-500" />
+              </span>
 
               <span className="hidden sm:block mr-1 font-medium">
                 {user?.name || "Guest"}
@@ -208,7 +210,9 @@ const Layout = () => {
       </div>
 
       {/* Upload Modal */}
-      {isUploadOpen && <UploadModal isOpen={isUploadOpen} onClose={closeUploadModal} />}
+      {isUploadOpen && (
+        <UploadModal isOpen={isUploadOpen} onClose={closeUploadModal} />
+      )}
     </div>
   );
 };

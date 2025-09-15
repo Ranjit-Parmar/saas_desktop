@@ -32,7 +32,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c5",
+    "id": "c1",
     "name": "Software License",
     "parties": "Adobe & Creatix",
     "expiry": "2025-07-01",
@@ -40,7 +40,7 @@
     "risk": "High"
   },
   {
-    "id": "c6",
+    "id": "c2",
     "name": "API Integration Contract",
     "parties": "Stripe & StartApp",
     "expiry": "2025-08-22",
@@ -48,7 +48,7 @@
     "risk": "Low"
   },
   {
-    "id": "c7",
+    "id": "c3",
     "name": "Marketing Collaboration",
     "parties": "Meta & XYZ Media",
     "expiry": "2024-12-01",
@@ -56,7 +56,7 @@
     "risk": "High"
   },
   {
-    "id": "c8",
+    "id": "c4",
     "name": "Supply Chain Agreement",
     "parties": "LogiCo & RetailWorks",
     "expiry": "2025-10-15",
@@ -64,7 +64,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c9",
+    "id": "c1",
     "name": "Consulting Agreement",
     "parties": "McKinsey & FinanceCorp",
     "expiry": "2025-09-30",
@@ -72,7 +72,7 @@
     "risk": "Low"
   },
   {
-    "id": "c10",
+    "id": "c2",
     "name": "Vendor Service Agreement",
     "parties": "FreshFoods & DeliverEase",
     "expiry": "2025-11-12",
@@ -80,7 +80,7 @@
     "risk": "High"
   },
   {
-    "id": "c11",
+    "id": "c3",
     "name": "Confidentiality Agreement",
     "parties": "LegalHub & ABC Corp",
     "expiry": "2024-10-01",
@@ -88,7 +88,7 @@
     "risk": "Low"
   },
   {
-    "id": "c12",
+    "id": "c4",
     "name": "Product Licensing Deal",
     "parties": "InnovateX & GameLab",
     "expiry": "2025-06-20",
@@ -96,7 +96,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c13",
+    "id": "c1",
     "name": "Enterprise Hosting SLA",
     "parties": "Azure & CloudNet",
     "expiry": "2025-09-01",
@@ -104,7 +104,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c14",
+    "id": "c2",
     "name": "Maintenance Agreement",
     "parties": "FixIT & ABC Logistics",
     "expiry": "2026-03-18",
@@ -112,7 +112,7 @@
     "risk": "Low"
   },
   {
-    "id": "c15",
+    "id": "c3",
     "name": "Security Services Contract",
     "parties": "SecureSys & BankOne",
     "expiry": "2025-12-10",
@@ -120,7 +120,7 @@
     "risk": "High"
   },
   {
-    "id": "c16",
+    "id": "c4",
     "name": "Procurement Contract",
     "parties": "BuyMax & ShopZilla",
     "expiry": "2024-09-30",
@@ -128,7 +128,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c17",
+    "id": "c1",
     "name": "HR Outsourcing Agreement",
     "parties": "PeoplePro & CorpSuite",
     "expiry": "2025-08-08",
@@ -136,7 +136,7 @@
     "risk": "High"
   },
   {
-    "id": "c18",
+    "id": "c2",
     "name": "IoT Device Partnership",
     "parties": "SmartThings & HomeEase",
     "expiry": "2026-04-05",
@@ -144,7 +144,7 @@
     "risk": "Low"
   },
   {
-    "id": "c19",
+    "id": "c3",
     "name": "Distribution Rights Agreement",
     "parties": "NetShop & TradeRoute",
     "expiry": "2025-05-11",
@@ -152,7 +152,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c20",
+    "id": "c4",
     "name": "Digital Marketing SLA",
     "parties": "AdCentral & ReachMax",
     "expiry": "2024-08-15",
@@ -160,7 +160,7 @@
     "risk": "High"
   },
   {
-    "id": "c21",
+    "id": "c1",
     "name": "Subscription Contract",
     "parties": "Netflix & ViewerHub",
     "expiry": "2025-12-01",
@@ -168,7 +168,7 @@
     "risk": "Low"
   },
   {
-    "id": "c22",
+    "id": "c2",
     "name": "Healthcare Supply Deal",
     "parties": "MedSupply & HospitalOne",
     "expiry": "2026-01-01",
@@ -176,7 +176,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c23",
+    "id": "c3",
     "name": "Asset Leasing Agreement",
     "parties": "LeasePro & TechServe",
     "expiry": "2025-07-07",
@@ -184,7 +184,7 @@
     "risk": "Low"
   },
   {
-    "id": "c24",
+    "id": "c4",
     "name": "Education Licensing Deal",
     "parties": "LearnCorp & EduNation",
     "expiry": "2024-11-25",
@@ -192,7 +192,7 @@
     "risk": "High"
   },
   {
-    "id": "c25",
+    "id": "c1",
     "name": "AI Development Contract",
     "parties": "OpenAI & DevBase",
     "expiry": "2025-06-30",
@@ -200,7 +200,7 @@
     "risk": "High"
   },
   {
-    "id": "c26",
+    "id": "c2",
     "name": "Retail Expansion Agreement",
     "parties": "MegaMart & BuildX",
     "expiry": "2025-10-18",
@@ -208,7 +208,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c27",
+    "id": "c3",
     "name": "Transportation Services",
     "parties": "RideFast & GoTransit",
     "expiry": "2024-12-20",
@@ -216,7 +216,7 @@
     "risk": "Low"
   },
   {
-    "id": "c28",
+    "id": "c4",
     "name": "Telecom SLA",
     "parties": "ComNet & SignalBoost",
     "expiry": "2025-11-11",
@@ -224,7 +224,7 @@
     "risk": "Medium"
   },
   {
-    "id": "c29",
+    "id": "c1",
     "name": "Legal Retainer Agreement",
     "parties": "LawForce & CorpSecure",
     "expiry": "2025-09-09",
@@ -232,7 +232,7 @@
     "risk": "High"
   },
   {
-    "id": "c30",
+    "id": "c2",
     "name": "Freight Logistics Deal",
     "parties": "ShipPro & GlobalTrade",
     "expiry": "2025-12-20",

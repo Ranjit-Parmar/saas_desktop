@@ -10,7 +10,9 @@ const ClauseCard = ({ clause }) => {
       {summary ? (
         <p className="text-sm text-gray-600 mt-2">{summary}</p>
       ) : (
-        <p className="text-sm italic text-gray-400 mt-2">No summary available.</p>
+        <p className="text-sm italic text-gray-400 mt-2">
+          No summary available.
+        </p>
       )}
 
       <p className="mt-3 text-xs text-gray-500">
