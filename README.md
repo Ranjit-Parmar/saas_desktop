@@ -1,12 +1,51 @@
-# React + Vite
+# SaaS Contracts Dashboard - UI/UX Developer Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Tailwind SPA simulating a SaaS contracts management dashboard. This project demonstrates modern UI design, state management with Context API, and a smooth, interactive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Login Page**
+  - Username + password fields
+  - Mock authentication (any username, password must be `test123`)
+  - Saves mock JWT in localStorage and navigates to dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Contracts Dashboard**
+  - Responsive layout with sidebar (Contracts, Insights, Reports, Settings) and topbar (user profile dropdown)
+  - Contracts table with columns: Contract Name, Parties, Expiry Date, Status, Risk Score
+  - Search and filter functionality
+  - Pagination (10 rows per page)
+  - Loading, empty, and error states
+
+- **Contract Detail Page**
+  - Metadata: title, parties, start & expiry dates, status, risk score
+  - Clauses section: cards with title, summary, confidence score
+  - AI Insights section: list of risks & recommendations with severity labels
+  - Evidence panel: side drawer with retrieved snippets and relevance scores
+
+- **Upload Modal**
+  - Drag & drop or browse to upload files
+  - File list with status: Uploading, Success, Error
+  - Simulated upload with timeout (no backend required)
+
+---
+
+## Tech Stack
+
+- **React** (functional components & hooks)
+- **Tailwind CSS**
+- **State Management**: Context API
+- **Routing**: React Router v6
+- **Deployment**: Vercel / Netlify
+- **Code Repository**: Public GitHub with this README
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Ranjit-Parmar/saas_desktop.git
+cd saas_desktop
