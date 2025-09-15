@@ -1,0 +1,242 @@
+[
+  {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c3",
+    "name": "Cloud Hosting Agreement",
+    "parties": "AWS & TechNova",
+    "expiry": "2024-11-15",
+    "status": "Expired",
+    "risk": "Low"
+  },
+  {
+    "id": "c4",
+    "name": "Data Processing Addendum",
+    "parties": "Google & DataFlow",
+    "expiry": "2026-01-20",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c5",
+    "name": "Software License",
+    "parties": "Adobe & Creatix",
+    "expiry": "2025-07-01",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c6",
+    "name": "API Integration Contract",
+    "parties": "Stripe & StartApp",
+    "expiry": "2025-08-22",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c7",
+    "name": "Marketing Collaboration",
+    "parties": "Meta & XYZ Media",
+    "expiry": "2024-12-01",
+    "status": "Expired",
+    "risk": "High"
+  },
+  {
+    "id": "c8",
+    "name": "Supply Chain Agreement",
+    "parties": "LogiCo & RetailWorks",
+    "expiry": "2025-10-15",
+    "status": "Renewal Due",
+    "risk": "Medium"
+  },
+  {
+    "id": "c9",
+    "name": "Consulting Agreement",
+    "parties": "McKinsey & FinanceCorp",
+    "expiry": "2025-09-30",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c10",
+    "name": "Vendor Service Agreement",
+    "parties": "FreshFoods & DeliverEase",
+    "expiry": "2025-11-12",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c11",
+    "name": "Confidentiality Agreement",
+    "parties": "LegalHub & ABC Corp",
+    "expiry": "2024-10-01",
+    "status": "Expired",
+    "risk": "Low"
+  },
+  {
+    "id": "c12",
+    "name": "Product Licensing Deal",
+    "parties": "InnovateX & GameLab",
+    "expiry": "2025-06-20",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c13",
+    "name": "Enterprise Hosting SLA",
+    "parties": "Azure & CloudNet",
+    "expiry": "2025-09-01",
+    "status": "Renewal Due",
+    "risk": "Medium"
+  },
+  {
+    "id": "c14",
+    "name": "Maintenance Agreement",
+    "parties": "FixIT & ABC Logistics",
+    "expiry": "2026-03-18",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c15",
+    "name": "Security Services Contract",
+    "parties": "SecureSys & BankOne",
+    "expiry": "2025-12-10",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c16",
+    "name": "Procurement Contract",
+    "parties": "BuyMax & ShopZilla",
+    "expiry": "2024-09-30",
+    "status": "Expired",
+    "risk": "Medium"
+  },
+  {
+    "id": "c17",
+    "name": "HR Outsourcing Agreement",
+    "parties": "PeoplePro & CorpSuite",
+    "expiry": "2025-08-08",
+    "status": "Active",
+    "risk": "High"
+  },
+  {
+    "id": "c18",
+    "name": "IoT Device Partnership",
+    "parties": "SmartThings & HomeEase",
+    "expiry": "2026-04-05",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c19",
+    "name": "Distribution Rights Agreement",
+    "parties": "NetShop & TradeRoute",
+    "expiry": "2025-05-11",
+    "status": "Renewal Due",
+    "risk": "Medium"
+  },
+  {
+    "id": "c20",
+    "name": "Digital Marketing SLA",
+    "parties": "AdCentral & ReachMax",
+    "expiry": "2024-08-15",
+    "status": "Expired",
+    "risk": "High"
+  },
+  {
+    "id": "c21",
+    "name": "Subscription Contract",
+    "parties": "Netflix & ViewerHub",
+    "expiry": "2025-12-01",
+    "status": "Active",
+    "risk": "Low"
+  },
+  {
+    "id": "c22",
+    "name": "Healthcare Supply Deal",
+    "parties": "MedSupply & HospitalOne",
+    "expiry": "2026-01-01",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c23",
+    "name": "Asset Leasing Agreement",
+    "parties": "LeasePro & TechServe",
+    "expiry": "2025-07-07",
+    "status": "Renewal Due",
+    "risk": "Low"
+  },
+  {
+    "id": "c24",
+    "name": "Education Licensing Deal",
+    "parties": "LearnCorp & EduNation",
+    "expiry": "2024-11-25",
+    "status": "Expired",
+    "risk": "High"
+  },
+  {
+    "id": "c25",
+    "name": "AI Development Contract",
+    "parties": "OpenAI & DevBase",
+    "expiry": "2025-06-30",
+    "status": "Active",
+    "risk": "High"
+  },
+  {
+    "id": "c26",
+    "name": "Retail Expansion Agreement",
+    "parties": "MegaMart & BuildX",
+    "expiry": "2025-10-18",
+    "status": "Renewal Due",
+    "risk": "Medium"
+  },
+  {
+    "id": "c27",
+    "name": "Transportation Services",
+    "parties": "RideFast & GoTransit",
+    "expiry": "2024-12-20",
+    "status": "Expired",
+    "risk": "Low"
+  },
+  {
+    "id": "c28",
+    "name": "Telecom SLA",
+    "parties": "ComNet & SignalBoost",
+    "expiry": "2025-11-11",
+    "status": "Active",
+    "risk": "Medium"
+  },
+  {
+    "id": "c29",
+    "name": "Legal Retainer Agreement",
+    "parties": "LawForce & CorpSecure",
+    "expiry": "2025-09-09",
+    "status": "Renewal Due",
+    "risk": "High"
+  },
+  {
+    "id": "c30",
+    "name": "Freight Logistics Deal",
+    "parties": "ShipPro & GlobalTrade",
+    "expiry": "2025-12-20",
+    "status": "Active",
+    "risk": "Low"
+  }
+]

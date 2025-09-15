@@ -1,0 +1,15 @@
+{
+  "id": "c3",
+  "name": "Cloud Hosting SLA",
+  "parties": "AWS & XYZ Ltd",
+  "start": "2020-11-15",
+  "expiry": "2024-11-15",
+  "status": "Expired",
+  "risk": "Low",
+  "clauses": [
+    { "title": "Uptime Guarantee", "summary": "99.9% uptime SLA with service credits.", "confidence": 0.91 },
+    { "title": "Support", "summary": "24/7 support with a 4-hour response time.", "confidence": 0.84 }
+  ],
+  "insights": [],
+  "evidence": []
+}

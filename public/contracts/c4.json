@@ -1,0 +1,19 @@
+{
+  "id": "c4",
+  "name": "Software Licensing Agreement",
+  "parties": "Adobe & DEF Inc",
+  "start": "2023-03-20",
+  "expiry": "2026-03-20",
+  "status": "Active",
+  "risk": "Medium",
+  "clauses": [
+    { "title": "License Scope", "summary": "Non-transferable, non-exclusive license for internal use only.", "confidence": 0.86 },
+    { "title": "Audit Rights", "summary": "Vendor may audit usage once per year.", "confidence": 0.79 }
+  ],
+  "insights": [
+    { "risk": "Medium", "message": "Audit clause may affect internal compliance." }
+  ],
+  "evidence": [
+    { "source": "Section 9.1", "snippet": "Adobe reserves the right to audit use at reasonable times.", "relevance": 0.85 }
+  ]
+}
